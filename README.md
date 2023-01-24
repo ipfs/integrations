@@ -5,6 +5,9 @@ Here we track the application in which we want to support IPFS.
 As a general rule of thumb, any application that can use web resources (http/https) is a potential candidate to integrate IPFS support into.
 Create an issue in the issue tracker of this repository to let us know which application needs IPFS integration.
 
+## Integrations roadmap
+We have a sheet [here](https://github.com/ipfs/integrations/issues) detailing the value of having an integration. These are all the issues represented in a sort of table to determine the value an integration can have. Feel free to edit this, add your criteria, add an integration candidate or just refine it in general!
+
 ## Completed integrations
 These integrations have been fully developed and merged in their upstream projects. A release might or might not have been made yet.
 * [FFmpeg](https://ffmpeg.org/) 5.1 has IPFS support.
