@@ -18,8 +18,6 @@ These integrations have been fully developed and merged in their upstream projec
   * Usage: `mpv ipfs://<cid>`
   * Example usecase: This is purely a mediaplayer on top of FFmpeg. `mpv ipfs://<cid>` would start playing your media.
   * There are no specific `mpv` docs with `IPFS` because it's a protocol passthrough from mpv directly to FFmpeg. The commit enabling IPFS support can be found [here](https://github.com/mpv-player/mpv/commit/3458651010a68c2384a19ba485e81e22c825782f).
-
-## Pending integrations
-* [cURL](https://curl.se/) WIP [PR](https://github.com/curl/curl/pull/8805#issuecomment-1179758610)
+* [cURL](https://curl.se/) 8.4.0 [PR](https://github.com/curl/curl/pull/8805#issuecomment-1179758610)
   * Usage: `curl ipfs://<cid>`
   * Example usecase: Download/access data from cURL. You can use this in scripts or even just as a quick way to download data from IPFS.
